@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1CDEB447C9FA2A28FDD936D /* Pods_Egov3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353D4B4F791FE170611E94C8 /* Pods_Egov3.framework */; };
 		B7F8C36A1D1C3A8500338C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3691D1C3A8500338C0A /* AppDelegate.swift */; };
-		B7F8C36C1D1C3A8500338C0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C36B1D1C3A8500338C0A /* ViewController.swift */; };
 		B7F8C36F1D1C3A8500338C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F8C36D1D1C3A8500338C0A /* Main.storyboard */; };
 		B7F8C3721D1C3A8500338C0A /* Egov3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3701D1C3A8500338C0A /* Egov3.xcdatamodeld */; };
 		B7F8C3741D1C3A8500338C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F8C3731D1C3A8500338C0A /* Assets.xcassets */; };
 		B7F8C3771D1C3A8500338C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F8C3751D1C3A8500338C0A /* LaunchScreen.storyboard */; };
+		B7F8C37F1D1C3ADE00338C0A /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C37E1D1C3ADE00338C0A /* ServicesTableViewController.swift */; };
+		B7F8C3811D1C3AF400338C0A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3801D1C3AF400338C0A /* Service.swift */; };
+		B7F8C3831D1C3B5400338C0A /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3821D1C3B5400338C0A /* ServiceTableViewCell.swift */; };
+		B7F8C3851D1C567100338C0A /* HelpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3841D1C567100338C0A /* HelpTableViewController.swift */; };
+		B7F8C3871D1C6C9500338C0A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3861D1C6C9500338C0A /* Home.swift */; };
+		B7F8C3891D1C711600338C0A /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3881D1C711600338C0A /* HomeTableViewCell.swift */; };
+		B7F8C38B1D1C89DB00338C0A /* WorkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C38A1D1C89DB00338C0A /* WorkTableViewController.swift */; };
+		B7F8C38D1D1CA55600338C0A /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C38C1D1CA55500338C0A /* Work.swift */; };
+		B7F8C38F1D1CABD500338C0A /* WorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C38E1D1CABD500338C0A /* WorkTableViewCell.swift */; };
+		B7F8C3B41D1CFDF700338C0A /* MapForCentersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3B31D1CFDF700338C0A /* MapForCentersViewController.swift */; };
+		B7F8C3B61D1D09E600338C0A /* MapForWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3B51D1D09E600338C0A /* MapForWorkViewController.swift */; };
+		B7F8C3B81D1D2A0700338C0A /* HangOutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3B71D1D2A0700338C0A /* HangOutTableViewController.swift */; };
+		B7F8C3BA1D1D2A6900338C0A /* HangOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3B91D1D2A6900338C0A /* HangOut.swift */; };
+		B7F8C3BC1D1D318700338C0A /* JobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F8C3BB1D1D318700338C0A /* JobViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170652A0D2FC044922AACD35 /* Pods-Egov3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egov3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Egov3/Pods-Egov3.debug.xcconfig"; sourceTree = "<group>"; };
+		353D4B4F791FE170611E94C8 /* Pods_Egov3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Egov3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F8C3661D1C3A8500338C0A /* Egov3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Egov3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F8C3691D1C3A8500338C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7F8C36B1D1C3A8500338C0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7F8C36E1D1C3A8500338C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7F8C3711D1C3A8500338C0A /* Egov3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Egov3.xcdatamodel; sourceTree = "<group>"; };
 		B7F8C3731D1C3A8500338C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7F8C3761D1C3A8500338C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7F8C3781D1C3A8500338C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F8C37E1D1C3ADE00338C0A /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		B7F8C3801D1C3AF400338C0A /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B7F8C3821D1C3B5400338C0A /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		B7F8C3841D1C567100338C0A /* HelpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpTableViewController.swift; sourceTree = "<group>"; };
+		B7F8C3861D1C6C9500338C0A /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B7F8C3881D1C711600338C0A /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B7F8C38A1D1C89DB00338C0A /* WorkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkTableViewController.swift; sourceTree = "<group>"; };
+		B7F8C38C1D1CA55500338C0A /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		B7F8C38E1D1CABD500338C0A /* WorkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkTableViewCell.swift; sourceTree = "<group>"; };
+		B7F8C3B31D1CFDF700338C0A /* MapForCentersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapForCentersViewController.swift; sourceTree = "<group>"; };
+		B7F8C3B51D1D09E600338C0A /* MapForWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapForWorkViewController.swift; sourceTree = "<group>"; };
+		B7F8C3B71D1D2A0700338C0A /* HangOutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangOutTableViewController.swift; sourceTree = "<group>"; };
+		B7F8C3B91D1D2A6900338C0A /* HangOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangOut.swift; sourceTree = "<group>"; };
+		B7F8C3BB1D1D318700338C0A /* JobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobViewController.swift; sourceTree = "<group>"; };
+		D7F36887CB73C70D14FE52E7 /* Pods-Egov3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egov3.release.xcconfig"; path = "Pods/Target Support Files/Pods-Egov3/Pods-Egov3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CDEB447C9FA2A28FDD936D /* Pods_Egov3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65451BCEB2A2B9834F378647 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				170652A0D2FC044922AACD35 /* Pods-Egov3.debug.xcconfig */,
+				D7F36887CB73C70D14FE52E7 /* Pods-Egov3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B7F8C35D1D1C3A8400338C0A = {
 			isa = PBXGroup;
 			children = (
 				B7F8C3681D1C3A8500338C0A /* Egov3 */,
 				B7F8C3671D1C3A8500338C0A /* Products */,
+				65451BCEB2A2B9834F378647 /* Pods */,
+				EE81ACC4EB7E888BFB31E78D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +99,35 @@
 			isa = PBXGroup;
 			children = (
 				B7F8C3691D1C3A8500338C0A /* AppDelegate.swift */,
-				B7F8C36B1D1C3A8500338C0A /* ViewController.swift */,
 				B7F8C36D1D1C3A8500338C0A /* Main.storyboard */,
 				B7F8C3731D1C3A8500338C0A /* Assets.xcassets */,
 				B7F8C3751D1C3A8500338C0A /* LaunchScreen.storyboard */,
 				B7F8C3781D1C3A8500338C0A /* Info.plist */,
 				B7F8C3701D1C3A8500338C0A /* Egov3.xcdatamodeld */,
+				B7F8C37E1D1C3ADE00338C0A /* ServicesTableViewController.swift */,
+				B7F8C3801D1C3AF400338C0A /* Service.swift */,
+				B7F8C3821D1C3B5400338C0A /* ServiceTableViewCell.swift */,
+				B7F8C3841D1C567100338C0A /* HelpTableViewController.swift */,
+				B7F8C3861D1C6C9500338C0A /* Home.swift */,
+				B7F8C3881D1C711600338C0A /* HomeTableViewCell.swift */,
+				B7F8C38A1D1C89DB00338C0A /* WorkTableViewController.swift */,
+				B7F8C38C1D1CA55500338C0A /* Work.swift */,
+				B7F8C38E1D1CABD500338C0A /* WorkTableViewCell.swift */,
+				B7F8C3B31D1CFDF700338C0A /* MapForCentersViewController.swift */,
+				B7F8C3B51D1D09E600338C0A /* MapForWorkViewController.swift */,
+				B7F8C3B71D1D2A0700338C0A /* HangOutTableViewController.swift */,
+				B7F8C3B91D1D2A6900338C0A /* HangOut.swift */,
+				B7F8C3BB1D1D318700338C0A /* JobViewController.swift */,
 			);
 			path = Egov3;
+			sourceTree = "<group>";
+		};
+		EE81ACC4EB7E888BFB31E78D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353D4B4F791FE170611E94C8 /* Pods_Egov3.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7F8C37B1D1C3A8500338C0A /* Build configuration list for PBXNativeTarget "Egov3" */;
 			buildPhases = (
+				DA4BF9F634FB308BE188E995 /* [CP] Check Pods Manifest.lock */,
 				B7F8C3621D1C3A8500338C0A /* Sources */,
 				B7F8C3631D1C3A8500338C0A /* Frameworks */,
 				B7F8C3641D1C3A8500338C0A /* Resources */,
+				250B773B41F56EFE337414A2 /* [CP] Embed Pods Frameworks */,
+				59905589CBD618F03129F600 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +165,7 @@
 				TargetAttributes = {
 					B7F8C3651D1C3A8500338C0A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 546WXG898K;
 					};
 				};
 			};
@@ -133,14 +200,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		250B773B41F56EFE337414A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egov3/Pods-Egov3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59905589CBD618F03129F600 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egov3/Pods-Egov3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4BF9F634FB308BE188E995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7F8C3621D1C3A8500338C0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F8C36C1D1C3A8500338C0A /* ViewController.swift in Sources */,
 				B7F8C36A1D1C3A8500338C0A /* AppDelegate.swift in Sources */,
+				B7F8C3811D1C3AF400338C0A /* Service.swift in Sources */,
+				B7F8C38D1D1CA55600338C0A /* Work.swift in Sources */,
+				B7F8C38F1D1CABD500338C0A /* WorkTableViewCell.swift in Sources */,
+				B7F8C3851D1C567100338C0A /* HelpTableViewController.swift in Sources */,
+				B7F8C3831D1C3B5400338C0A /* ServiceTableViewCell.swift in Sources */,
+				B7F8C37F1D1C3ADE00338C0A /* ServicesTableViewController.swift in Sources */,
+				B7F8C3BA1D1D2A6900338C0A /* HangOut.swift in Sources */,
 				B7F8C3721D1C3A8500338C0A /* Egov3.xcdatamodeld in Sources */,
+				B7F8C3B81D1D2A0700338C0A /* HangOutTableViewController.swift in Sources */,
+				B7F8C3B61D1D09E600338C0A /* MapForWorkViewController.swift in Sources */,
+				B7F8C3B41D1CFDF700338C0A /* MapForCentersViewController.swift in Sources */,
+				B7F8C3BC1D1D318700338C0A /* JobViewController.swift in Sources */,
+				B7F8C3891D1C711600338C0A /* HomeTableViewCell.swift in Sources */,
+				B7F8C38B1D1C89DB00338C0A /* WorkTableViewController.swift in Sources */,
+				B7F8C3871D1C6C9500338C0A /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +381,31 @@
 		};
 		B7F8C37C1D1C3A8500338C0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170652A0D2FC044922AACD35 /* Pods-Egov3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Egov3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltaim.Egov3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		B7F8C37D1D1C3A8500338C0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F36887CB73C70D14FE52E7 /* Pods-Egov3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Egov3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = saltaim.Egov3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -292,6 +428,7 @@
 				B7F8C37D1D1C3A8500338C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
